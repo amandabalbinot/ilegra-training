@@ -23,11 +23,12 @@
     </distributionManagement>
 
     <scm>
-        <url>https://bitbucket.org/rciovati/my-repo/src</url>
-        <connection>scm:git:ssh://git@bitbucket.org/rciovati/my-repo.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org/rciovati/my-repo.git</developerConnection>
+        <connection>scm:git:https://github.com/cyberjso/ilegra-training.git</connection>
+        <developerConnection>scm:git:git@github.com:cyberjso/ilegra-training.git</developerConnection>
+        <url>https://github.com/cyberjso/ilegra-training.git</url>
         <tag>HEAD</tag>
     </scm>
+
 
     <build>
         <plugins>
