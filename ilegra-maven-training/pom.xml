@@ -33,10 +33,10 @@
 
 
     <distributionManagement>
-        <repository>
+        <!--repository>
             <id>local-repository</id>
             <url>file:///C:/Usuarios/jackson/.m2/repository/com/ilegra/training/ilegra-maven-training</url>
-        </repository>
+        </repository -->
         <repository>
             <id>artifactory-ilegra</id>
             <url>http://repo.ilegra.com/artifactory/libs-release</url>
