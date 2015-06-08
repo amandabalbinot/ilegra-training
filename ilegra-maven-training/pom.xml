@@ -6,12 +6,31 @@
     <artifactId>com.ilegra.training.maven</artifactId>
     <name>ilegra-maven-training</name>
     <description>My Project description</description>
-    <packaging>jar</packaging>
+    <modules>
+        <module>..</module>
+    </modules>
+    <packaging>pom</packaging>
     <version>1.1</version>
 
 
     <properties />
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://repo.ilegra.com/artifactory/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <url>http://repo.ilegra.com/artifactory/libs-snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
