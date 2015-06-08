@@ -7,7 +7,7 @@
     <name>ilegra-maven-training</name>
 
     <description>My Project description</description>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6</version>
     <packaging>jar</packaging>
 
 
@@ -47,6 +47,7 @@
         <connection>scm:git:https://github.com/cyberjso/ilegra-training.git</connection>
         <developerConnection>scm:git:git@github.com:cyberjso/ilegra-training.git</developerConnection>
         <url>https://github.com/cyberjso/ilegra-training.git</url>
+    <tag>v1.6</tag>
   </scm>
 
     <build>
