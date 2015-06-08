@@ -42,8 +42,7 @@
     <scm>
         <connection>scm:git:https://github.com/cyberjso/ilegra-training.git</connection>
         <developerConnection>scm:git:git@github.com:cyberjso/ilegra-training.git</developerConnection>
-        <url>https://github.com/cyberjso/ilegra-training.git</url>    
-        <tag>v1.4</tag>
+        <url>https://github.com/cyberjso/ilegra-training.git</url>
   </scm>
 
     <build>
