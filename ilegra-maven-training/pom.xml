@@ -39,7 +39,7 @@
         </repository -->
         <repository>
             <id>artifactory-ilegra</id>
-            <url>http://repo.ilegra.com/artifactory/libs-release</url>
+            <url>http://repo.ilegra.com/artifactory/libs-release-local</url>
         </repository>
     </distributionManagement>
 
